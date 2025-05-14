@@ -4,7 +4,7 @@ import { useMutation, useQuery, useQueryClient } from '@tanstack/react-query';
 import { getFriendRequests, LogOut } from '../lib/api';
 import { BellIcon, LogOutIcon, Radar, X } from 'lucide-react';
 import ThemeSelector from '../Components/ThemeSelector';
-import useAuthUser from '../hooks/useAuthuser.js';
+import useAuthUser from '../hooks/useAuthUser.js';
 
 const Navbar = () => {
     const { authUser } = useAuthUser();

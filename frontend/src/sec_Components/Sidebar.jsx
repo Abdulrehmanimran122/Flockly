@@ -3,7 +3,8 @@ import { Link, useLocation } from 'react-router-dom';
 import { BellIcon, HomeIcon, Radar, UserIcon } from 'lucide-react';
 import { getFriendRequests } from '../lib/api';
 import { useQuery } from '@tanstack/react-query';
-import useAuthUser from '../hooks/useAuthuser.js';
+import useAuthUser from '../hooks/useAuthUser';
+
 
 const Sidebar = () => {
     const { authUser } = useAuthUser();

@@ -7,7 +7,7 @@ import { StreamChat } from 'stream-chat'
 import toast from 'react-hot-toast'
 import ChatLoader from '../sec_Components/ChatLoader'
 import CallButton from '../sec_Components/CallButton'
-import useAuthUser from '../hooks/useAuthuser.js';
+import useAuthUser from '../hooks/useAuthUser.js';
 
 const STREAM_API_KEY = import.meta.env.VITE_STREAM_API_KEY // Fixed env variable access
 
