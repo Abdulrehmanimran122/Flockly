@@ -12,7 +12,7 @@ router.post("/logout", logout);
 router.post("/onboarding",
     express.json({ limit: '10mb' }),
     protectRoute,
-    upload.single('profilePic'), // Now properly imported
+    upload.single('profilePic'),
     onaboard
 );
 

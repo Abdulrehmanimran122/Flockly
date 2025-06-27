@@ -50,7 +50,7 @@ export async function signup(req, res) {
       console.error("Stream error:", error);
     }
 
-    // JWT and response (unchanged)
+    // JWT and response 
     const token = jwt.sign({ userId: newUser._id }, process.env.JWT_SECRET_KEY, {
       expiresIn: "7d",
     });
